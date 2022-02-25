@@ -45,6 +45,8 @@ for (let i = 0; i < operatorEl.length; i++) {
 //adding an event to the clear button
 document.querySelector(".clear").addEventListener("click", function (e) {
   inputEl.value = inputEl.value.slice(0, inputEl.value.length - 1);
+
+//this resets the values of the input array and clears the operator 
   operator = "";
   inputs = [];
 });
